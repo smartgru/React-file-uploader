@@ -1,0 +1,47 @@
+.files {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.file-table {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.file-table .file-search {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.file-table .file-search input {
+  width: 240px;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.file-preview {
+  width: 15%;
+  border-radius: 8px;
+  border: 1px solid #dddddd;
+}
+.file-preview img {
+  width: 100%;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
